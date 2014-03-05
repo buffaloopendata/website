@@ -44,12 +44,118 @@ table {
 
 
 
-/* Custom selectors */
+
+
+/* Custom
+
+
+
+ */
+
+body{font-family: Georgia, Tahoma, serif;}
+
+.trans{
+	transition: all 0.33s ease;
+}
+
+.fullbg{
+height: 100%;
+width: 100%;
+position: fixed;
+background: url('img/Buffalo_Panorama_1911.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#buffalopano{
+	width:100%;
+	position: fixed;
+	bottom:0px;
+	opacity: .1;
+	
+}
 
 section{
-	margin:60px auto;
-	width:20%;
-	height:900px;
-	border:1px solid #add;
-	background:rbga(255,255,255,1);
+	width: 300px;
+	height: 300px;
+	border: 13px solid #ADD;
+	background:rgba(255, 255, 255, 0.95);
+	text-align: center;
+	padding:50px 50px;
+	border-radius: 50%;
+	
+	position: absolute;
+	left:50%;
+	margin-top:20px;
+	margin-left:-215px;
+	
 }
+
+h1{
+	font-size: 54px;
+	font-weight: 700;
+	margin:0px 0px 33px 0px;
+}
+
+p{
+	font-size:18px;
+	line-height: 24px;
+}
+
+a{	
+	display: block;
+	width:100px;
+	color:#bada55;
+	padding:20px 33px;
+	border:3px solid #bada55;
+	border-radius: 2px;
+	margin:30px auto;
+	font-size:22px;
+	font-weight:bold;
+}
+
+a:hover{
+background:	#bada55;
+color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
